@@ -11,6 +11,8 @@
 #include "mcli.h"
 #include "mnet.h"
 
+#include "monocypher.h"
+
 #define PORTN 10020
 
 typedef struct tcp_state

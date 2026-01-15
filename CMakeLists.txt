@@ -10,6 +10,7 @@ target_include_directories(monocypher PUBLIC inc)
 
 add_library(chatlib
         src/libs.c
+        src/tcp.c
 )
 target_include_directories(chatlib PUBLIC inc)
 
